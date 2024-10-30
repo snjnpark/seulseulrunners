@@ -4,6 +4,7 @@ import TwSizeIndicator from "@layouts/components/TwSizeIndicator";
 import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
 import Providers from "@layouts/partials/Providers";
+import { GoogleAnalytics } from "@next/third-parties/google"; // GoogleAnalytics 컴포넌트 추가
 import "../styles/style.scss";
 
 export default function RootLayout({ children }) {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
 
         {/* favicon */}
         <link rel="shortcut icon" href={config.site.favicon} />
+        
         {/* theme meta */}
         <meta name="theme-name" content="andromeda-light-nextjs" />
 
@@ -55,6 +57,9 @@ export default function RootLayout({ children }) {
         <Header />
         <Providers>{children}</Providers>
         <Footer />
+        
+        {/* Google Analytics 컴포넌트 추가 */}
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_TAG} />
       </body>
     </html>
   );
