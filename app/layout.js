@@ -13,9 +13,11 @@ export default function RootLayout({ children }) {
   const pf = theme.fonts.font_family.primary;
   const sf = theme.fonts.font_family.secondary;
   return (
-    <html suppressHydrationWarning={true} lang="en">
+    <html suppressHydrationWarning={true} lang="ko">
       <head>
-      <meta name="google-site-verification" content="CIctVTdxxVK7rfP3MukSglqUqTEACZGR3HkpWQV6rY0" />
+      <meta 
+          name="google-site-verification" 
+          content="CIctVTdxxVK7rfP3MukSglqUqTEACZGR3HkpWQV6rY0" />
         {/* responsive meta */}
         <meta
           name="viewport"
