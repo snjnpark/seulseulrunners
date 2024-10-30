@@ -15,9 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning={true} lang="ko">
       <head>
-      <meta
-        name="google-site-verification" 
-        content="zh6s9VC1jg9TKZXaMXscg_j7SnBefvkkSGr74SjdD4g" 
+        <meta
+          name="google-site-verification" 
+          content="zh6s9VC1jg9TKZXaMXscg_j7SnBefvkkSGr74SjdD4g" 
         />
         {/* responsive meta */}
         <meta
