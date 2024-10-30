@@ -1,17 +1,13 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, currently at Bookworm"
+title: "마케터 겸 마라토너가 풀어보는 러닝 브랜드 이야기"
 meta_title: "About"
-image: "/images/author.jpg"
+image: "/images/logo.png"
 layout: "about"
 draft: false
 
 # social sites
 social:
-  facebook: "https://www.facebook.com"
-  twitter: "https://www.twitter.com"
-  instagram: "https://www.instagram.com"
+  facebook: 
+  twitter: 
+  instagram:
 ---
-
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
-
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
