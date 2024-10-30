@@ -7,6 +7,7 @@ import Providers from "@layouts/partials/Providers";
 import { GoogleAnalytics } from "@next/third-parties/google"; // GoogleAnalytics 컴포넌트 추가
 import "../styles/style.scss";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function RootLayout({ children }) {
   const pf = theme.fonts.font_family.primary;
@@ -63,6 +64,7 @@ export default function RootLayout({ children }) {
         {/* Google Analytics 컴포넌트 추가 */}
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_TAG} />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
