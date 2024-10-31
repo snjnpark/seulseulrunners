@@ -8,13 +8,13 @@ let h4 = h5 * font_scale;
 let h3 = h4 * font_scale;
 let h2 = h3 * font_scale;
 let h1 = h2 * font_scale;
-let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
-if (theme.fonts.font_family.primary) {
-  fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontPrimaryType = theme.fonts.font_family.primary_type;
-}
+
+// Pretendard 폰트를 기본값으로 설정
+let fontPrimary = 'Pretendard';
+let fontPrimaryType = 'sans-serif';
+let fontSecondary, fontSecondaryType;
+
+// secondary 폰트가 있는 경우에만 처리
 if (theme.fonts.font_family.secondary) {
   fontSecondary = theme.fonts.font_family.secondary
     .replace(/\+/g, " ")
