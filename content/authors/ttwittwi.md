@@ -1,6 +1,6 @@
 ---
 title: 뛰뛰
-image: /images/favicon.png
+image: /images/authors/ttwittwi.jpg
 description: this is meta description
 social:
   facebook: 

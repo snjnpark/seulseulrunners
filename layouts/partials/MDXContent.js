@@ -3,10 +3,11 @@ import "highlight.js/styles/atom-one-dark.css";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import rehypeHighlight from "rehype-highlight";
 import remarkGfm from "remark-gfm";
+import remarkToc from 'remark-toc';
 
 const MDXContent = ({ content }) => {
   const mdxOptions = {
-    remarkPlugins: [remarkGfm],
+    remarkPlugins: [remarkGfm, remarkToc],
     rehypePlugins: [rehypeHighlight],
   };
 
