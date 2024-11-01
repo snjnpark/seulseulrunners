@@ -17,6 +17,14 @@ export default function RootLayout({ children }) {
     // html 태그: 언어 설정 및 hydration 경고 억제
     <html suppressHydrationWarning={true} lang="ko">
       <head>
+        {/* 네이버 사이트 인증 메타 태그*/}
+        <meta 
+          name="naver-site-verification" 
+          content="bff8e66cbf91c66820e721558d1aa9330df9da1d" 
+        />
+
+
+
         {/* 구글 사이트 인증 메타 태그 */}
         <meta
           name="google-site-verification" 
