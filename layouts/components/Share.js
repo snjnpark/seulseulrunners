@@ -18,7 +18,7 @@ const Share = ({ title, description, slug, className }) => {
           href={`https://facebook.com/sharer/sharer.php?u=${base_url}/${slug}`}
           target="_blank"
           rel="noreferrer noopener"
-          button="true"
+          button="false"
         >
           <IoLogoFacebook />
         </a>
@@ -29,17 +29,18 @@ const Share = ({ title, description, slug, className }) => {
           href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${base_url}/${slug}`}
           target="_blank"
           rel="noreferrer noopener"
-          button="true"
+          button="false"
         >
           <IoLogoTwitter />
         </a>
       </li>
-      <li className="inline-block">
+      {/* <li className="inline-block">
         <a
           aria-label="linkedin share button"
           href={`https://www.linkedin.com/shareArticle?mini=true&url=${base_url}/${slug}&title=${title}&summary=${description}&source=${base_url}`}
           target="_blank"
           rel="noreferrer noopener"
+          button="false"
         >
           <IoLogoLinkedin />
         </a>
@@ -50,11 +51,11 @@ const Share = ({ title, description, slug, className }) => {
           href={`https://pinterest.com/pin/create/button/?url=${base_url}/${slug}&media=&description=${description}`}
           target="_blank"
           rel="noreferrer noopener"
-          button="true"
+          button="false"
         >
           <IoLogoPinterest />
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 };
