@@ -1,4 +1,12 @@
+# *
 User-agent: *
-Allow: /
+Disallow: /search
+Disallow: /categories
+Disallow: /tags
+Disallow: /authors
 
-Disallow: /api/*
+# Host
+Host: https://ttwittwi.vercel.app
+
+# Sitemaps
+Sitemap: https://ttwittwi.vercel.app/sitemap.xml
