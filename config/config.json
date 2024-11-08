@@ -12,7 +12,7 @@
   "settings": {
     "pagination": 3,
     "summary_length": 200,
-    "blog_folder": "posts"
+    "blog_folder": "posts/"
   },
 
   "params": {
