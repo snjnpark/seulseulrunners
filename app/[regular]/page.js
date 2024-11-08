@@ -25,7 +25,7 @@ const RegularPages = async ({ params }) => {
   const posts = getSinglePage(`content/${blog_folder}`); // 블로그 포스트 전체 데이터를 가져옵니다.
   
   // pageData의 frontmatter에서 메타데이터를 구조분해 할당으로 불러옵니다.
-  const { title, meta_title, description, image, noindex, canonical, layout } = pageData.frontmatter;
+  const { title, meta_title, description, image, canonical, layout } = pageData.frontmatter;
   const { content } = pageData; // 페이지의 내용(content)을 불러옵니다.
 
   return (
@@ -35,7 +35,6 @@ const RegularPages = async ({ params }) => {
         description={description ? description : content.slice(0, 120)} // SEO 메타 설명 (content에서 일부 발췌)
         meta_title={meta_title} // 메타 제목을 위한 설정
         image={image} // 이미지 URL
-        noindex={noindex} // 검색 엔진 색인을 금지하는 설정
         canonical={canonical} // 정규 URL을 설정합니다.
       />
 

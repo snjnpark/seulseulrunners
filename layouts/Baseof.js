@@ -10,7 +10,6 @@ const Base = ({
   meta_title,
   description,
   image,
-  noindex,
   canonical,
   children,
 }) => {
@@ -30,9 +29,6 @@ const Base = ({
 
         {/* canonical url */}
         {canonical && <link rel="canonical" href={canonical} itemProp="url" />}
-
-        {/* noindex robots */}
-        {noindex && <meta name="robots" content="noindex,nofollow" />}
 
         {/* meta-description */}
         <meta

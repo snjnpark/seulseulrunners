@@ -12,7 +12,6 @@ import { usePathname } from "next/navigation";  // 현재 경로를 가져오기
  * @param {string} image - 페이지 대표 이미지 경로
  * @param {string} description - 페이지 설명
  * @param {string} canonical - 표준 URL
- * @param {boolean} noindex - 검색엔진 색인 제외 여부
  */
 const SeoMeta = ({
   title,
@@ -20,7 +19,6 @@ const SeoMeta = ({
   image,
   description,
   canonical,
-  noindex,
 }) => {
   // config 파일에서 필요한 메타데이터 추출
   const { meta_image, meta_author, meta_description } = config.metadata;
@@ -40,9 +38,6 @@ const SeoMeta = ({
       {/* 검색엔진 관련 메타 태그 */}
       {/* 표준 URL이 있는 경우 canonical 태그 추가 */}
       {canonical && <link rel="canonical" href={canonical} itemProp="url" />}
-
-      {/* 검색엔진 색인 제외 설정이 있는 경우 noindex 태그 추가 */}
-      {noindex && <meta name="robots" content="noindex,nofollow" />}
 
       {/* 페이지 설명 메타 태그: 제공된 설명 또는 기본 설명 사용 */}
       <meta

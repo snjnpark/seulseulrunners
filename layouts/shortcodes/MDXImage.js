@@ -1,5 +1,3 @@
-// layouts/shortcodes/MDXImage.js
-
 // 클라이언트 사이드 렌더링을 위한 'use client' 지시어
 'use client'
 
