@@ -1,4 +1,5 @@
 // 필요한 설정 파일과 컴포넌트들을 임포트
+import Script from "next/script";
 import config from "@config/config.json";  // 사이트 전반적인 설정 정보
 import TwSizeIndicator from "@layouts/components/TwSizeIndicator";  // 화면 크기 표시 컴포넌트
 import Footer from "@layouts/partials/Footer";  // 푸터 컴포넌트
@@ -73,6 +74,21 @@ export default function RootLayout({ children }) {
         {/* 푸터 영역 */}
         <Footer />
         
+        {/* 네이버 로그 분석 스크립트 */}
+        <Script
+          src="//wcs.naver.net/wcslog.js"
+          strategy="afterInteractive"
+        />
+        <Script id="naver-analytics" strategy="afterInteractive">
+          {`
+            if(!wcs_add) var wcs_add = {};
+            wcs_add["wa"] = "a899aa4c88f31";
+            if(window.wcs) {
+              wcs_do();
+            }
+          `}
+        </Script>
+
         {/* 분석 도구들 */}
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_TAG} />
         <Analytics />
