@@ -1,12 +1,2 @@
-# *
 User-agent: *
-Disallow: /search
-Disallow: /categories
-Disallow: /tags
-Disallow: /authors
-
-# Host
-Host: https://seulseulrunners.com
-
-# Sitemaps
-Sitemap: https://seulseulrunners.com/sitemap.xml
+Allow:/
