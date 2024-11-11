@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         {/* 네이버 사이트 인증 메타 태그*/}
         <meta 
           name="naver-site-verification" 
-          content="bff8e66cbf91c66820e721558d1aa9330df9da1d" 
+          content="95601cd758f1b853520a572e5fdf7a0bc493a8a1" 
         />
 
 
