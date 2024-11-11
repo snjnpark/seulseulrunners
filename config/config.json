@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "뛰뛰 runners brand insight",
+    "title": "슬슬러너스 Slow Steady Runners",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "90",
     "logo_height": "34",
-    "logo_text": "ttwittwi"
+    "logo_text": "seulseulrunners"
   },
 
   "settings": {
@@ -18,11 +18,11 @@
   "params": {
     "tag_manager_id": "GTM-M5PGNTBH",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2024 ttwittwi"
+    "copyright": "Copyright © 2024 seulseulrunners"
   },
 
   "metadata": {
-    "meta_author": "ttwittwi",
+    "meta_author": "seulseulrunners",
     "meta_image": "/images/og-image.png",
     "meta_description": "러너라면 한번쯤 궁금해봤을 브랜드, 마라톤 대회, 각종 이야기. 마케터 겸 마라토너가 자세하게 풀어드립니다."
   }

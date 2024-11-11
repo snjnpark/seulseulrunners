@@ -6,7 +6,7 @@ Disallow: /tags
 Disallow: /authors
 
 # Host
-Host: https://ttwittwi.vercel.app
+Host: https://seulseulrunners.com
 
 # Sitemaps
-Sitemap: https://ttwittwi.vercel.app/sitemap.xml
+Sitemap: https://seulseulrunners.com/sitemap.xml

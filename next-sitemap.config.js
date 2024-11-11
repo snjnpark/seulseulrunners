@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-    siteUrl: 'https://ttwittwi.vercel.app', // 게시하는 site의 url
+    siteUrl: 'https://seulseulrunners.com', // 게시하는 site의 url
     generateRobotsTxt: true, // robots.txt 자동생성 여부 (true로 변경)
     sitemapSize: 7000, // sitemap별 최대 크기
     changefreq: 'daily', // 페이지 주소 변경 빈도

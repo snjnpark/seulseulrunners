@@ -32,7 +32,7 @@ const BlogPagination = async ({ params }) => {
   return (
     <>
       {/* SEO 메타 태그 설정 */}
-      <SeoMeta title="뛰뛰 Runners brand insight" />
+      <SeoMeta title="슬슬러너스 Slow Steady Runners" />
       <section className="section">
         <div className="container">
           {/* 게시물 목록과 페이지네이션 컴포넌트 렌더링 */}
