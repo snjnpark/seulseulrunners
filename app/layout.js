@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         {/* 구글 사이트 인증 메타 태그 */}
         <meta
           name="google-site-verification" 
-          content="zh6s9VC1jg9TKZXaMXscg_j7SnBefvkkSGr74SjdD4g" 
+          content="rG_SWm0SdQd0g-xKxPDCixtyPyJsYhsX7Pa9QodIM08" 
         />
         
         {/* 반응형 웹을 위한 뷰포트 설정 */}
